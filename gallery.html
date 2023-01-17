@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dustman</title>
+    <link rel="shortcut icon" type="image/x-icon" href="dustman.ico" />
+    <link rel="stylesheet" href="newstyle.css" />
+    <link rel="stylesheet" href="resp.css" />
+  </head>
+  <body>
+    <a name="top"></a>
+    <nav class="navbar">
+      <div>
+        <img class="logo" src="images/logo.png" alt="logo" />
+      </div>
+      <div class="navigation-bar">
+        <ul class="nav-list" id="navi-list">
+          <li class="list-item"><a href="index.html">முகப்பு </a></li>
+          <li class="list-item"><a href="about.html">எங்களைப்பற்றி</a></li>
+          <li class="list-item"><a href="other.html">சேவைகள்</a></li>
+          <li class="list-item">
+            <a class="current-page" href="gallery.html">கேலரி</a>
+          </li>
+          <li class="list-item"><a href="contact.html">தொடர்புக்கொள்ள</a></li>
+        </ul>
+        <div class="empty"></div>
+        <div class="login-item">
+          <button class="login-btn" id="login-btn">
+            உள்நுழைய <img src="images/drop-down.png" />
+          </button>
+          <div class="login-list" id="login-list">
+            <a class="login-first" href="#">Customer</a>
+            <a href="#">Vendor</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <header>
+      <div class="logo">
+        <img src="images/logo.png" alt="" />
+      </div>
+
+      <button class="nav-toggle" aria-label="toggle navigation">
+        <span class="hamburger"></span>
+      </button>
+
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a class="nav__link" href="index.html">முகப்பு </a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="about.html">எங்களைப்பற்றி</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="other.html">சேவைகள்</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="gallery.html">கேலரி</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="contact.html">தொடர்புக்கொள்ள</a>
+          </li>
+
+          <li class="login-item">
+            <button class="login-btn" id="login-btn-resp">
+              உள்நுழைய <img src="images/drop-down.png" />
+            </button>
+            <div class="login-list" id="login-list-resp">
+              <a class="login-first" href="#">Customer</a>
+              <a href="#">Vendor</a>
+            </div>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <img class="gallery-pic" src="images/gallery.png" alt="" />
+    <section>
+      <div class="gallery-page">
+        <div class="side-head">
+          <a href="index.html">முகப்பு </a> |
+          <a class="current-view" href="#">கேலரி</a>
+        </div>
+
+        <div class="gallery-container">
+          <div class="select-gallery">
+            <ul class="indicator">
+              <li data-filter="all" class="active">அனைத்தையும் காட்டு</li>
+              <li data-filter="Facilities">வசதிகள்</li>
+              <li data-filter="Woodern Recycling Unit">
+                மர மறுசுழற்சி ஆலை
+              </li>
+              <li data-filter="Plastic Recycling Unit">
+                பிளாஸ்டிக் மறுசுழற்சி ஆலை
+              </li>
+              <li data-filter="Cotton Box">பருத்திப் பெட்டி</li>
+              <li data-filter="Zero Waste Scrap">தொழில்துறை திடக்கழிவு</li>
+            </ul>
+          </div>
+          <div class="pictures">
+            <div class="gallery-pictures" data-category="Facilities">
+              <img src="images/g1.png" alt="" />
+              <h3 class="pic-title">சிறப்பு உபகரணங்கள்</h3>
+            </div>
+            <div class="gallery-pictures" data-category="Facilities">
+              <img src="images/g2.png" alt="" />
+              <h3 class="pic-title">ஃபோர்க்லிஃப்ட்ஸ்</h3>
+            </div>
+            <div class="gallery-pictures" data-category="Facilities">
+              <img src="images/g3.png" alt="" />
+              <h3 class="pic-title">வாகனங்கள்</h3>
+            </div>
+            <div
+              class="gallery-pictures"
+              data-category="Woodern Recycling Unit"
+            >
+              <img src="images/g4.png" alt="" />
+              <h3 class="pic-title">கதவுகளை உருவாக்குதல்</h3>
+            </div>
+            <div
+              class="gallery-pictures"
+              data-category="Woodern Recycling Unit"
+            >
+              <img src="images/g5.png" alt="" />
+              <h3 class="pic-title">மரச்சாமான்கள் தயாரித்தல்</h3>
+            </div>
+            <div
+              class="gallery-pictures"
+              data-category="Woodern Recycling Unit"
+            >
+              <img src="images/g6.png" alt="" />
+              <h3 class="pic-title">வூட் ரீப்பர் தயாரித்தல்</h3>
+            </div>
+            <div class="gallery-pictures" data-category="Facilities">
+              <img src="images/g7.png" alt="" />
+              <h3 class="pic-title">செயலாக்க இயந்திரம்</h3>
+            </div>
+            <div
+              class="gallery-pictures"
+              data-category="Plastic Recycling Unit"
+            >
+              <img src="images/g8.png" alt="" />
+              <h3 class="pic-title">LDPE துகள்கள்</h3>
+            </div>
+            <div
+              class="gallery-pictures"
+              data-category="Plastic Recycling Unit"
+            >
+              <img src="images/g9.png" alt="" />
+              <h3 class="pic-title">நைலான் துகள்கள்</h3>
+            </div>
+            <div class="gallery-pictures" data-category="Cotton Box">
+              <img src="images/g10.png" alt="" />
+              <h3 class="pic-title">காகித சுருள்கள்</h3>
+            </div>
+            <div class="gallery-pictures" data-category="Cotton Box">
+              <img src="images/g11.png" alt="" />
+              <h3 class="pic-title">தளர்வான அட்டைப்பெட்டிகள்</h3>
+            </div>
+            <div class="gallery-pictures" data-category="Zero Waste Scrap">
+              <img src="images/g12.png" alt="" />
+              <h3 class="pic-title">தொழில்துறை திடக்கழிவு</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+     <footer>
+            <a href="#top" class="top">&#x2191;</a>
+            <div class="f1">
+                <img src="images/logo1.png" alt="">
+                <p>இந்தியா முழுவதும் மின்னணுக் கழிவு மேலாண்மை. நம் நாட்டில் மின்னணுக் கழிவுகளுக்கு எதிராக போராட வேண்டிய நேரம் இது.</p>
+                <div class="symbols">
+                    <a href="https://www.facebook.com/"><img class="sym" src="images/f1.png" alt=""></a>
+                    <a href="https://www.instagram.com/accounts/login/"><img class="sym" src="images/f2.png" alt=""></a>
+                    <a href="https://www.linkedin.com/"><img class="sym" src="images/f3.png" alt=""></a>
+                </div>
+            </div>
+
+            <div class="f2">
+               <h5>வேலை நேரம்</h5>
+                <p>முக்கிய விடுமுறை நாட்களைத் தவிர்த்து, வாரத்தில் 7 நாட்கள் வேலை செய்கிறோம். விசாரணைகளுக்கு எங்கள் ஹாட்லைன் மற்றும் தொடர்புப்படிவத்துடன் எங்களைத் தொடர்புக்கொள்ளவும்.</p>
+                <div class="f2-time">
+                    <p>திங்கள் - சனிக்கிழமை</p>
+                    <p>10:00 - 18:30</p>
+                        
+                    <p>ஞாயிறு - விடுமுறை நாட்கள்</p>
+                    <p>10:00 - 13:00</p>
+                </div>
+            </div>
+
+            <div class="f3">
+                <h5 class="work-enquiries">வேலை விசாரணை</h5>
+                <p>எங்களுடன் பணியாற்ற ஆர்வமா?<br><a href = "mailto: info@dustman.io, hello@dustman.io">support@dustmanrecycling.com</a></p>
+            </div>
+
+            <div class="f4">
+                <h5>தொடர்பில் இருங்கள்</h5>
+                <div class="contact">
+                    
+                    <a href = "mailto: info@dustman.io, hello@dustman.io">
+                        <img src="images/mail.png" alt=""><span>info@dustmanrecycling.com</span>
+                    </a>
+             
+                <a href = "tel: +918939877444">
+                    <img src="images/ph.png" alt=""><span>+91 8939909555, +918939976555</span>
+                </a>
+            </div>
+            </div>
+
+            <div class="copyright">
+                <p>Privacy & Cookie Policy | Terms of Service</p>
+                <p>Copyright © 2022, Designed & Developed by Unitive Technologies</p>
+            </div>
+        </footer>
+    <script src="index.js"></script>
+    <script src="nav.js"></script>
+    <script src="login.js"></script>
+    <script src="gallery.js"></script>
+    <script src="nav-resp.js"></script>
+  </body>
+</html>

@@ -1,0 +1,87 @@
+div.relative {
+  position: relative;
+} 
+
+div.absolute {
+  position: absolute;
+  top: 80px;
+  width: 620px;
+  height: 415px;
+  background: #ffffff;
+  margin-left: 800px;
+  margin-top: 1730px;
+  border-radius: 25px;
+box-shadow: 0px 21.3439px 45.4718px rgba(0, 0, 0, 0.04);
+}
+.loc{
+  position: absolute;
+width: 242px;
+height: 75px;
+font-family: 'Space Grotesk';
+font-style: normal;
+font-weight: 700;
+font-size: 28px;
+line-height: 74px;
+/* identical to box height, or 206% */
+
+text-transform: capitalize;
+
+/* Dark */
+
+color: #080A12;
+margin-top: 36px;
+margin-left: 56px;
+}
+
+.cir img{
+  margin-left: 55px;
+  margin-top: 130px;
+  position: absolute;
+}
+.cir p{
+  margin-left: 130px;
+  margin-top: 130px;
+  position: absolute;
+  width: 400.83px;
+  height: 476.99px;
+  font-family: 'DM Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+
+/* Dark */
+
+color: #080A12;
+
+}
+.ph img{
+  margin-left: 55px;
+  margin-top: 220px;
+  position: absolute;
+}
+.ph p{
+  margin-left: 130px;
+  margin-top: 240px;
+  position: absolute;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+}
+.mail img{
+  margin-left: 55px;
+  margin-top: 310px;
+  position: absolute;
+}
+.mail p{
+  margin-left: 130px;
+  margin-top: 330px;
+  position: absolute;
+  font-family: 'DM Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+
+}
+.client1{
+  margin-left: 25px;
+}
